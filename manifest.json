@@ -1,0 +1,132 @@
+{
+  "Actions": [
+    {
+      "Icon": "defaultImage",
+      "Name": "Roll a D4",
+      "States": [
+        {
+          "Image": "defaultImage",
+          "TitleAlignment": "middle", 
+          "FontSize": "18",
+          "Title": "D4"
+        }
+      ], 
+      "SupportedInMultiActions": false,
+      "Tooltip": "Roll a D4",
+      "UUID": "com.hmschreck.d20.d4"
+    },
+    {
+      "Icon": "defaultImage",
+      "Name": "Roll a D6",
+      "States": [
+        {
+          "Image": "defaultImage",
+          "TitleAlignment": "middle",
+          "FontSize": "18",
+          "Title": "D6"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Roll a D6",
+      "UUID": "com.hmschreck.d20.d6"
+    },
+    {
+      "Icon": "defaultImage",
+      "Name": "Roll a D8",
+      "States": [
+        {
+          "Image": "defaultImage",
+          "TitleAlignment": "middle",
+          "FontSize": "18",
+          "Title": "D8"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Roll a D8",
+      "UUID": "com.hmschreck.d20.d8"
+    },
+    {
+      "Icon": "defaultImage",
+      "Name": "Roll a D10",
+      "States": [
+        {
+          "Image": "defaultImage",
+          "TitleAlignment": "middle",
+          "FontSize": "18",
+          "Title": "D10"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Roll a D10",
+      "UUID": "com.hmschreck.d20.d10"
+    },
+    {
+      "Icon": "defaultImage",
+      "Name": "Roll a D12",
+      "States": [
+        {
+          "Image": "defaultImage",
+          "TitleAlignment": "middle",
+          "FontSize": "18",
+          "Title": "D12"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Roll a D12",
+      "UUID": "com.hmschreck.d20.d12"
+    },
+    {
+      "Icon": "defaultImage",
+      "Name": "Roll a D20",
+      "States": [
+        {
+          "Image": "defaultImage",
+          "TitleAlignment": "middle",
+          "FontSize": "18",
+          "Title": "D20"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Roll a D20",
+      "UUID": "com.hmschreck.d20.d20"
+    },
+    {
+      "Icon": "defaultImage",
+      "Name": "Roll a D100",
+      "States": [
+        {
+          "Image": "defaultImage",
+          "TitleAlignment": "middle",
+          "FontSize": "18",
+          "Title": "D100"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Roll a D100",
+      "UUID": "com.hmschreck.d20.d100"
+    }
+  ], 
+  "SDKVersion": 2,
+  "Author": "hmschreck",
+  "CodePath": "dice.exe",
+  "CodePathMac": "dice",
+  "Description": "Roll dice",
+  "Name": "Roll Dice",
+  "Icon": "pluginIcon", 
+  "URL": "https://github.com/hmschreck/sdDice",
+  "Version": "0.4",
+  "OS": [
+    {
+        "Platform": "mac", 
+        "MinimumVersion" : "10.11"
+    },
+    {
+        "Platform": "windows", 
+        "MinimumVersion" : "10"
+    }
+  ],
+  "Software": 
+    {
+        "MinimumVersion" : "4.1"
+    }
+}
